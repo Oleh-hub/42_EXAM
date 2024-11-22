@@ -10,9 +10,9 @@ int main()
 		std::cout << AAAA <<  std::endl;
 		Warlock jim("Jim", "the nauseating");   //Compiles
 		std::cout << jim.getName() <<  std::endl;
-		bob = jim;                            //Does not compile
+		// bob = jim;                            //Does not compile
 		std::cout << bob.getName() << ", " << bob.getTitle() <<  std::endl;
-		Warlock jack(jim);                      //Does not compile
+		// Warlock jack(jim);                      //Does not compile
 	}
 	// Warlock const richard("Richard", "Mistress of Magma");
 	// richard.introduce();
