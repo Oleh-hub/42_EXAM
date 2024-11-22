@@ -1,8 +1,12 @@
 #include "Warlock.hpp"
 
-Warlock::Warlock()
+Warlock::Warlock(const std::string &name, const std::string &title) : _name(name), _title(title)
 {
+}
 
+void Warlock::setTitle(const std::string &title)
+{
+	this->_title = title;
 }
 
 const std::string& Warlock::getName() const

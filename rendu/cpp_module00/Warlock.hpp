@@ -9,10 +9,10 @@ class Warlock
 		std::string _title;
 	
 	public:
-		Warlock();
+		Warlock(const std::string &name, const std::string &title);
 		// std::string const &getName() const;
 		const std::string &getName() const;
 		const std::string &getTitle() const;
-
+		void setTitle(const std::string &title);		
 };
 #endif //WARLOCK_HPP
