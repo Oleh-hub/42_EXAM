@@ -38,3 +38,8 @@ const std::string & Warlock::getTitle() const
 {
 	return _title;
 }
+
+void Warlock::introduce() const
+{
+	std::cout << this->_name << ": I am " << this->_name << ", " << this->_title << "!" << std::endl;
+}
